@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1320" viewBox="0 0 1600 1320">
+<rect width="100%" height="100%" fill="#f7f9fc"/>
+<text x="800" y="58" text-anchor="middle" font-family="Arial" font-size="34" font-weight="bold" fill="#17223b">Jira Sprint Burndown - Tournament Manager</text>
+<text x="800" y="94" text-anchor="middle" font-family="Arial" font-size="18" fill="#52637c">Actual remaining story points vs. the seven-day linear guideline</text>
+<text x="155" y="121" font-family="Arial" font-size="25" font-weight="bold" fill="#27364d">Sprint 1: 11 planned points</text>
+<line x1="155" y1="490.0" x2="1465" y2="490.0" stroke="#d9e0ea" stroke-width="1"/>
+<text x="135" y="496.0" text-anchor="end" font-family="Arial" font-size="15" fill="#27364d">0</text>
+<line x1="155" y1="395.9" x2="1465" y2="395.9" stroke="#d9e0ea" stroke-width="1"/>
+<text x="135" y="401.9" text-anchor="end" font-family="Arial" font-size="15" fill="#27364d">3</text>
+<line x1="155" y1="301.8" x2="1465" y2="301.8" stroke="#d9e0ea" stroke-width="1"/>
+<text x="135" y="307.8" text-anchor="end" font-family="Arial" font-size="15" fill="#27364d">6</text>
+<line x1="155" y1="207.7" x2="1465" y2="207.7" stroke="#d9e0ea" stroke-width="1"/>
+<text x="135" y="213.7" text-anchor="end" font-family="Arial" font-size="15" fill="#27364d">9</text>
+<text x="135" y="151" text-anchor="end" font-family="Arial" font-size="15" fill="#27364d">11</text>
+<line x1="155.0" y1="145" x2="155.0" y2="490" stroke="#d9e0ea" stroke-width="1"/>
+<text x="155.0" y="516" text-anchor="middle" font-family="Arial" font-size="15" fill="#27364d">0</text>
+<line x1="342.1" y1="145" x2="342.1" y2="490" stroke="#d9e0ea" stroke-width="1"/>
+<text x="342.1" y="516" text-anchor="middle" font-family="Arial" font-size="15" fill="#27364d">1</text>
+<line x1="529.3" y1="145" x2="529.3" y2="490" stroke="#d9e0ea" stroke-width="1"/>
+<text x="529.3" y="516" text-anchor="middle" font-family="Arial" font-size="15" fill="#27364d">2</text>
+<line x1="716.4" y1="145" x2="716.4" y2="490" stroke="#d9e0ea" stroke-width="1"/>
+<text x="716.4" y="516" text-anchor="middle" font-family="Arial" font-size="15" fill="#27364d">3</text>
+<line x1="903.6" y1="145" x2="903.6" y2="490" stroke="#d9e0ea" stroke-width="1"/>
+<text x="903.6" y="516" text-anchor="middle" font-family="Arial" font-size="15" fill="#27364d">4</text>
+<line x1="1090.7" y1="145" x2="1090.7" y2="490" stroke="#d9e0ea" stroke-width="1"/>
+<text x="1090.7" y="516" text-anchor="middle" font-family="Arial" font-size="15" fill="#27364d">5</text>
+<line x1="1277.9" y1="145" x2="1277.9" y2="490" stroke="#d9e0ea" stroke-width="1"/>
+<text x="1277.9" y="516" text-anchor="middle" font-family="Arial" font-size="15" fill="#27364d">6</text>
+<line x1="1465.0" y1="145" x2="1465.0" y2="490" stroke="#d9e0ea" stroke-width="1"/>
+<text x="1465.0" y="516" text-anchor="middle" font-family="Arial" font-size="15" fill="#27364d">7</text>
+<line x1="155" y1="145" x2="155" y2="490" stroke="#34445c" stroke-width="2"/><line x1="155" y1="490" x2="1465" y2="490" stroke="#34445c" stroke-width="2"/>
+<polyline points="155,145 1465,490" fill="none" stroke="#8794a8" stroke-width="4" stroke-dasharray="10 8"/>
+<polyline points="155,145 169.42,145 169.42,490 1465,490" fill="none" stroke="#c4423a" stroke-width="5"/>
+<circle cx="169.42" cy="490" r="7" fill="#c4423a"/>
+<text x="325.0" y="187" font-family="Arial" font-size="16" font-weight="bold" fill="#c4423a">3 stories; 11 points reached zero at +00:01:51</text>
+<text x="810.0" y="548" text-anchor="middle" font-family="Arial" font-size="16" fill="#27364d">Elapsed days in the seven-day sprint</text>
+<text x="155" y="621" font-family="Arial" font-size="25" font-weight="bold" fill="#27364d">Sprint 2: 16 planned points</text>
+<line x1="155" y1="990.0" x2="1465" y2="990.0" stroke="#d9e0ea" stroke-width="1"/>
+<text x="135" y="996.0" text-anchor="end" font-family="Arial" font-size="15" fill="#27364d">0</text>
+<line x1="155" y1="903.8" x2="1465" y2="903.8" stroke="#d9e0ea" stroke-width="1"/>
+<text x="135" y="909.8" text-anchor="end" font-family="Arial" font-size="15" fill="#27364d">4</text>
+<line x1="155" y1="817.5" x2="1465" y2="817.5" stroke="#d9e0ea" stroke-width="1"/>
+<text x="135" y="823.5" text-anchor="end" font-family="Arial" font-size="15" fill="#27364d">8</text>
+<line x1="155" y1="731.2" x2="1465" y2="731.2" stroke="#d9e0ea" stroke-width="1"/>
+<text x="135" y="737.2" text-anchor="end" font-family="Arial" font-size="15" fill="#27364d">12</text>
+<line x1="155" y1="645.0" x2="1465" y2="645.0" stroke="#d9e0ea" stroke-width="1"/>
+<text x="135" y="651.0" text-anchor="end" font-family="Arial" font-size="15" fill="#27364d">16</text>
+<line x1="155.0" y1="645" x2="155.0" y2="990" stroke="#d9e0ea" stroke-width="1"/>
+<text x="155.0" y="1016" text-anchor="middle" font-family="Arial" font-size="15" fill="#27364d">0</text>
+<line x1="342.1" y1="645" x2="342.1" y2="990" stroke="#d9e0ea" stroke-width="1"/>
+<text x="342.1" y="1016" text-anchor="middle" font-family="Arial" font-size="15" fill="#27364d">1</text>
+<line x1="529.3" y1="645" x2="529.3" y2="990" stroke="#d9e0ea" stroke-width="1"/>
+<text x="529.3" y="1016" text-anchor="middle" font-family="Arial" font-size="15" fill="#27364d">2</text>
+<line x1="716.4" y1="645" x2="716.4" y2="990" stroke="#d9e0ea" stroke-width="1"/>
+<text x="716.4" y="1016" text-anchor="middle" font-family="Arial" font-size="15" fill="#27364d">3</text>
+<line x1="903.6" y1="645" x2="903.6" y2="990" stroke="#d9e0ea" stroke-width="1"/>
+<text x="903.6" y="1016" text-anchor="middle" font-family="Arial" font-size="15" fill="#27364d">4</text>
+<line x1="1090.7" y1="645" x2="1090.7" y2="990" stroke="#d9e0ea" stroke-width="1"/>
+<text x="1090.7" y="1016" text-anchor="middle" font-family="Arial" font-size="15" fill="#27364d">5</text>
+<line x1="1277.9" y1="645" x2="1277.9" y2="990" stroke="#d9e0ea" stroke-width="1"/>
+<text x="1277.9" y="1016" text-anchor="middle" font-family="Arial" font-size="15" fill="#27364d">6</text>
+<line x1="1465.0" y1="645" x2="1465.0" y2="990" stroke="#d9e0ea" stroke-width="1"/>
+<text x="1465.0" y="1016" text-anchor="middle" font-family="Arial" font-size="15" fill="#27364d">7</text>
+<line x1="155" y1="645" x2="155" y2="990" stroke="#34445c" stroke-width="2"/><line x1="155" y1="990" x2="1465" y2="990" stroke="#34445c" stroke-width="2"/>
+<polyline points="155,645 1465,990" fill="none" stroke="#8794a8" stroke-width="4" stroke-dasharray="10 8"/>
+<polyline points="155,645 238.39,645 238.39,990 1465,990" fill="none" stroke="#c4423a" stroke-width="5"/>
+<circle cx="238.39" cy="990" r="7" fill="#c4423a"/>
+<text x="325.0" y="687" font-family="Arial" font-size="16" font-weight="bold" fill="#c4423a">4 stories; 16 points reached zero at +10:41:41</text>
+<text x="810.0" y="1048" text-anchor="middle" font-family="Arial" font-size="16" fill="#27364d">Elapsed days in the seven-day sprint</text>
+<line x1="220" y1="1175" x2="285" y2="1175" stroke="#c4423a" stroke-width="5"/><text x="300" y="1181" font-family="Arial" font-size="16" fill="#27364d">Jira issue-history actual</text>
+<line x1="620" y1="1175" x2="685" y2="1175" stroke="#8794a8" stroke-width="4" stroke-dasharray="10 8"/><text x="700" y="1181" font-family="Arial" font-size="16" fill="#27364d">Linear guideline</text>
+<text x="800" y="1235" text-anchor="middle" font-family="Arial" font-size="15" fill="#52637c">Derived from Jira Sprint Report estimates and issue status-change timestamps on 7 Oct 2026.</text>
+<text x="800" y="1265" text-anchor="middle" font-family="Arial" font-size="15" fill="#52637c">This was a compressed classroom simulation; the plot is not a Jira-rendered screenshot or a real team velocity forecast.</text>
+</svg>
