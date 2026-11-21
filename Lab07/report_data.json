@@ -1,0 +1,40 @@
+{
+  "title": "Lab 7: Fuzzing for Input Validation Bugs",
+  "subject": "Software Engineering",
+  "lab_number": "Lab 7",
+  "student": "PES1UG24CS561",
+  "date": "2026-11-21",
+  "aim": "To use Hypothesis property-based fuzz testing to discover input-validation bugs and harden the amusement ride Python application against malformed and unexpected input.",
+  "procedure": "I ran the original processor with the starter Hypothesis tests to capture crashes caused by empty strings, None values, malformed separators, and unknown codes. I then added defensive type and format checks to all three processor functions and reran both the robustness and semantic property tests.",
+  "tasks": [
+    {
+      "title": "Step 1: Installed dependencies",
+      "commands": ["python -m pip install hypothesis pytest python-docx"],
+      "observation": "I installed Hypothesis and pytest for property-based testing. The Python DOCX package was also available so that I could build this lab report."
+    },
+    {
+      "title": "Step 2: Ran the original application",
+      "commands": ["python processor.py"],
+      "observation": "The original application expected every rider specification, ride metric, and zone code to have the exact valid format. It was vulnerable to malformed strings and did not provide a safe response for unexpected input."
+    },
+    {
+      "title": "Step 3: Completed and ran the starter fuzz tests",
+      "commands": ["python -m pytest test_starter_fuzz_before.py"],
+      "observation": "Hypothesis minimized the failures to ':', '', and None for rider height; '/', '', and None for throughput; and empty or None values for restraint lookup. The original functions crashed with ValueError, AttributeError, and KeyError.",
+      "screenshot": "C:\\Users\\mmbas\\SE-Labs-PES1UG24CS561\\Lab07\\evidence\\fuzz_test_before.png"
+    },
+    {
+      "title": "Step 4: Fixed the processor functions",
+      "commands": ["python processor.py"],
+      "observation": "I added explicit string-type checks, separator validation, numeric conversion checks, finite-value checks, positive cycle-time checks, and known zone-code validation. The CLI now catches validation errors and prints a clear invalid-input message instead of crashing.",
+      "screenshot": "C:\\Users\\mmbas\\SE-Labs-PES1UG24CS561\\Lab07\\evidence\\processor_fixed_output.png"
+    },
+    {
+      "title": "Step 5: Re-ran the complete fuzz test suite",
+      "commands": ["python -m pytest test_processor.py test_fuzz_processor.py"],
+      "observation": "The fixed implementation passed the three robustness properties and all six semantic/property tests. The final run collected nine tests and reported nine passed.",
+      "screenshot": "C:\\Users\\mmbas\\SE-Labs-PES1UG24CS561\\Lab07\\evidence\\fuzz_test_after.png"
+    }
+  ],
+  "conclusion": "This lab demonstrated that property-based fuzz testing exposes malformed and edge-case inputs that ordinary example tests miss. The starter tests found failures for None, empty strings, bad separators, invalid numbers, and unknown codes. Defensive validation and explicit error handling removed these crashes, and the complete Hypothesis suite passed."
+}
