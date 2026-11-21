@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+<rect x="0" y="0" width="1600" height="1000" rx="0" fill="#f7f9fc" stroke="#f7f9fc" stroke-width="0"/>
+<text x="800" y="55" font-family="Arial,sans-serif" font-size="34" fill="#17223b" font-weight="bold" text-anchor="middle">SELF-SERVICE COFFEE KIOSK</text>
+<text x="800" y="88" font-family="Arial,sans-serif" font-size="18" fill="#53637c" font-weight="normal" text-anchor="middle">UML Component Diagram  |  Layered architecture  |  Interfaces &amp; dependencies</text>
+<rect x="45" y="125" width="1070" height="765" rx="22" fill="#f2f6fb" stroke="#6784a5" stroke-width="3" stroke-dasharray="12 8"/>
+<text x="75" y="160" font-family="Arial,sans-serif" font-size="18" fill="#315b8a" font-weight="bold" text-anchor="start">KIOSK APPLICATION | TRUSTED LOCAL DEPLOYMENT</text>
+<rect x="75" y="195" width="290" height="625" rx="18" fill="#edf4fb" stroke="#b7cbe0" stroke-width="2"/>
+<text x="220" y="228" font-family="Arial,sans-serif" font-size="18" fill="#315b8a" font-weight="bold" text-anchor="middle">PRESENTATION LAYER</text>
+<rect x="405" y="195" width="350" height="625" rx="18" fill="#eef7f3" stroke="#b8d8ca" stroke-width="2"/>
+<text x="580" y="228" font-family="Arial,sans-serif" font-size="18" fill="#176b52" font-weight="bold" text-anchor="middle">APPLICATION LAYER</text>
+<rect x="790" y="195" width="295" height="625" rx="18" fill="#fff7eb" stroke="#e9cca6" stroke-width="2"/>
+<text x="937" y="228" font-family="Arial,sans-serif" font-size="17" fill="#925112" font-weight="bold" text-anchor="middle">DATA / ADAPTER LAYER</text>
+<rect x="100" y="350" width="235" height="160" rx="14" fill="#fff" stroke="#315b8a" stroke-width="3"/>
+<rect x="293" y="362" width="27" height="9" rx="0" fill="#fff" stroke="#315b8a" stroke-width="2"/>
+<rect x="293" y="374" width="27" height="9" rx="0" fill="#fff" stroke="#315b8a" stroke-width="2"/>
+<text x="217.5" y="406" font-family="Consolas,monospace" font-size="16" fill="#53637c" font-weight="normal" text-anchor="middle">&lt;&lt;component&gt;&gt;</text>
+<text x="217.5" y="441" font-family="Arial,sans-serif" font-size="22" fill="#17223b" font-weight="bold" text-anchor="middle">Touchscreen UI</text>
+<text x="217.5" y="471" font-family="Arial,sans-serif" font-size="15" fill="#53637c" font-weight="normal" text-anchor="middle">3 drinks x 2 sizes</text>
+<rect x="445" y="350" width="265" height="160" rx="14" fill="#f9fffc" stroke="#176b52" stroke-width="3"/>
+<rect x="668" y="362" width="27" height="9" rx="0" fill="#fff" stroke="#176b52" stroke-width="2"/>
+<rect x="668" y="374" width="27" height="9" rx="0" fill="#fff" stroke="#176b52" stroke-width="2"/>
+<text x="577.5" y="406" font-family="Consolas,monospace" font-size="16" fill="#53637c" font-weight="normal" text-anchor="middle">&lt;&lt;component&gt;&gt;</text>
+<text x="577.5" y="441" font-family="Arial,sans-serif" font-size="22" fill="#17223b" font-weight="bold" text-anchor="middle">Order Manager</text>
+<text x="577.5" y="471" font-family="Arial,sans-serif" font-size="15" fill="#53637c" font-weight="normal" text-anchor="middle">Validation and order flow</text>
+<rect x="815" y="265" width="245" height="160" rx="14" fill="#fffdf8" stroke="#925112" stroke-width="3"/>
+<rect x="1018" y="277" width="27" height="9" rx="0" fill="#fff" stroke="#925112" stroke-width="2"/>
+<rect x="1018" y="289" width="27" height="9" rx="0" fill="#fff" stroke="#925112" stroke-width="2"/>
+<text x="937.5" y="321" font-family="Consolas,monospace" font-size="16" fill="#53637c" font-weight="normal" text-anchor="middle">&lt;&lt;component&gt;&gt;</text>
+<text x="937.5" y="356" font-family="Arial,sans-serif" font-size="22" fill="#17223b" font-weight="bold" text-anchor="middle">Menu &amp; Pricing Catalog</text>
+<text x="937.5" y="386" font-family="Arial,sans-serif" font-size="15" fill="#53637c" font-weight="normal" text-anchor="middle">Menu/pricing data</text>
+<rect x="1195" y="350" width="330" height="170" rx="14" fill="#f5f1ff" stroke="#7048a0" stroke-width="3"/>
+<rect x="1483" y="362" width="27" height="9" rx="0" fill="#fff" stroke="#7048a0" stroke-width="2"/>
+<rect x="1483" y="374" width="27" height="9" rx="0" fill="#fff" stroke="#7048a0" stroke-width="2"/>
+<text x="1360.0" y="406" font-family="Consolas,monospace" font-size="16" fill="#53637c" font-weight="normal" text-anchor="middle">&lt;&lt;component&gt;&gt;</text>
+<text x="1360.0" y="441" font-family="Arial,sans-serif" font-size="22" fill="#17223b" font-weight="bold" text-anchor="middle">Payment Service</text>
+<text x="1360.0" y="471" font-family="Arial,sans-serif" font-size="15" fill="#53637c" font-weight="normal" text-anchor="middle">External card authorization</text>
+<rect x="815" y="610" width="245" height="155" rx="14" fill="#fffdf8" stroke="#925112" stroke-width="3"/>
+<rect x="1018" y="622" width="27" height="9" rx="0" fill="#fff" stroke="#925112" stroke-width="2"/>
+<rect x="1018" y="634" width="27" height="9" rx="0" fill="#fff" stroke="#925112" stroke-width="2"/>
+<text x="937.5" y="666" font-family="Consolas,monospace" font-size="16" fill="#53637c" font-weight="normal" text-anchor="middle">&lt;&lt;component&gt;&gt;</text>
+<text x="937.5" y="701" font-family="Arial,sans-serif" font-size="22" fill="#17223b" font-weight="bold" text-anchor="middle">Receipt Printer Adapter</text>
+<text x="937.5" y="731" font-family="Arial,sans-serif" font-size="15" fill="#53637c" font-weight="normal" text-anchor="middle">Receipt format and driver</text>
+<rect x="1195" y="610" width="330" height="155" rx="14" fill="#f4f5f7" stroke="#687386" stroke-width="3"/>
+<rect x="1483" y="622" width="27" height="9" rx="0" fill="#fff" stroke="#687386" stroke-width="2"/>
+<rect x="1483" y="634" width="27" height="9" rx="0" fill="#fff" stroke="#687386" stroke-width="2"/>
+<text x="1360.0" y="666" font-family="Consolas,monospace" font-size="16" fill="#53637c" font-weight="normal" text-anchor="middle">&lt;&lt;component&gt;&gt;</text>
+<text x="1360.0" y="701" font-family="Arial,sans-serif" font-size="22" fill="#17223b" font-weight="bold" text-anchor="middle">Receipt Printer</text>
+<text x="1360.0" y="731" font-family="Arial,sans-serif" font-size="15" fill="#53637c" font-weight="normal" text-anchor="middle">Physical kiosk device</text>
+<path d="M335 416 A14 14 0 0 1 335 444" fill="none" stroke="#ad5b17" stroke-width="4"/>
+<path d="M349 430 L435 430" fill="none" stroke="#40506b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="445" cy="430" r="10" fill="#fff" stroke="#176b52" stroke-width="4"/>
+<path d="M455 430 L471 430" fill="none" stroke="#176b52" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="276.0" y="375" width="228" height="36" rx="10" fill="#fff" stroke="#d4dbe6" stroke-width="1"/>
+<text x="390" y="399" font-family="Arial,sans-serif" font-size="15" fill="#243550" font-weight="bold" text-anchor="middle">IOrderAPI: order / size</text>
+<path d="M561 350 A14 14 0 0 0 589 350" fill="none" stroke="#ad5b17" stroke-width="4"/>
+<path d="M575 336 L575 247 L935 247 L935 255" fill="none" stroke="#40506b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="935" cy="265" r="10" fill="#fff" stroke="#176b52" stroke-width="4"/>
+<path d="M935 275 L935 291" fill="none" stroke="#176b52" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="635.0" y="229" width="270" height="36" rx="10" fill="#fff" stroke="#d4dbe6" stroke-width="1"/>
+<text x="770" y="253" font-family="Arial,sans-serif" font-size="15" fill="#243550" font-weight="bold" text-anchor="middle">IMenuCatalog: items / price</text>
+<path d="M710 424 A14 14 0 0 1 710 452" fill="none" stroke="#ad5b17" stroke-width="4"/>
+<path d="M724 438 L1185 438" fill="none" stroke="#40506b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1195" cy="438" r="10" fill="#fff" stroke="#176b52" stroke-width="4"/>
+<path d="M1205 438 L1221 438" fill="none" stroke="#176b52" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="790.5" y="382" width="323" height="36" rx="10" fill="#fff" stroke="#d4dbe6" stroke-width="1"/>
+<text x="952" y="406" font-family="Arial,sans-serif" font-size="15" fill="#243550" font-weight="bold" text-anchor="middle">ICardAuthorization: token / result</text>
+<circle cx="575" cy="510" r="10" fill="#fff" stroke="#176b52" stroke-width="4"/>
+<path d="M575 500 L575 484" fill="none" stroke="#176b52" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M921 610 A14 14 0 0 0 949 610" fill="none" stroke="#ad5b17" stroke-width="4"/>
+<path d="M575 537 L575 565 L935 565 L935 596" fill="none" stroke="#40506b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="607.5" y="547" width="295" height="36" rx="10" fill="#fff" stroke="#d4dbe6" stroke-width="1"/>
+<text x="755" y="571" font-family="Arial,sans-serif" font-size="15" fill="#243550" font-weight="bold" text-anchor="middle">IReceiptJob: paid order details</text>
+<path d="M1060 672 A14 14 0 0 1 1060 700" fill="none" stroke="#ad5b17" stroke-width="4"/>
+<path d="M1074 686 L1185 686" fill="none" stroke="#40506b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1195" cy="686" r="10" fill="#fff" stroke="#176b52" stroke-width="4"/>
+<path d="M1205 686 L1221 686" fill="none" stroke="#176b52" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1007.0" y="630" width="240" height="36" rx="10" fill="#fff" stroke="#d4dbe6" stroke-width="1"/>
+<text x="1127" y="654" font-family="Arial,sans-serif" font-size="15" fill="#243550" font-weight="bold" text-anchor="middle">IPrinter: USB / OS driver</text>
+<rect x="65" y="845" width="1470" height="100" rx="14" fill="#fff" stroke="#d4dbe6" stroke-width="2"/>
+<text x="90" y="878" font-family="Arial,sans-serif" font-size="16" fill="#17223b" font-weight="bold" text-anchor="start">UML NOTATION</text>
+<circle cx="255" cy="872" r="9" fill="#fff" stroke="#176b52" stroke-width="4"/>
+<text x="275" y="879" font-family="Arial,sans-serif" font-size="17" fill="#33435c" font-weight="normal" text-anchor="start">Provided interface (ball)</text>
+<path d="M510 858 A14 14 0 0 1 510 886" fill="none" stroke="#ad5b17" stroke-width="4"/>
+<text x="535" y="879" font-family="Arial,sans-serif" font-size="17" fill="#33435c" font-weight="normal" text-anchor="start">Required interface (socket)</text>
+<path d="M790 872 L860 872" fill="none" stroke="#40506b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="875" y="879" font-family="Arial,sans-serif" font-size="17" fill="#33435c" font-weight="normal" text-anchor="start">Assembly connector / interaction path</text>
+<text x="90" y="918" font-family="Arial,sans-serif" font-size="16" fill="#53637c" font-weight="normal" text-anchor="start">Card data is handled by the payment provider; the kiosk must not retain raw card number or security code.</text>
+</svg>
